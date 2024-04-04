@@ -41,7 +41,7 @@ frontend abbasol24-frontend
         default_backend abbasol24-backend
 
 frontend abbasol24-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/abbasol24.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.abbasol24.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend abbasol24-backend
 
