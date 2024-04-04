@@ -48,4 +48,4 @@ frontend abbasol24-frontend-https
 backend abbasol24-backend
         balance roundrobin
         server 521158-web-01 54.146.80.255:80 check
-        server 521158-web-02 54.146.60.70:80 check
+        server 521158-web-02 54.146.70.60:80 check
